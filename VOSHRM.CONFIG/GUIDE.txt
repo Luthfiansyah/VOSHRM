@@ -1,0 +1,44 @@
+========== Dokumentasi SCHTASKS ==========
+
+SCHTASKS --> Schedules Tasks to run periodically or at a specific time on windows system.
+TASKNAME --> - VOSHRM_DB_RESTORE (use QUERY syntax to check the TASK on CMD)
+	     - AUTO_REPLY_DEMO
+
+* CREATE
+	Syntax :
+	schtasks /create /sc <ScheduleType> /tn <TaskName> /tr <TaskRun> [/s <Computer> [/u [<Domain>\]<User> [/p <Password>]]] [/ru {[<Domain>\]<User> | System}]
+		[/rp <Password>] [/mo <Modifier>] [/d <Day>[,<Day>...] | *] [/m <Month>[,<Month>...]] [/i <IdleTime>] [/st <StartTime>] [/ri <Interval>]
+		[{/et <EndTime> | /du <Duration>} [/k]] [/sd <StartDate>] [/ed <EndDate>] [/it] [/z] [/f]
+	Examples :
+	schtasks /create /tn "coba" /tr c:\program.bat /sc daily /st 15:32 /sd 20/03/2017   --> membuat schedule HARIAN dengan nama "coba" pada tanggal "20/03/2017"
+																							jam "15:32", dengan merunning "program.bat" pada direktori C:\
+
+* CHANGE
+	Syntax :
+	schtasks /change /tn <TaskName> [/s <Computer> [/u [<Domain>\]<User> [/p <Password>]]] [/ru {[<Domain>\]<User> | System}] [/rp <Password>] [/tr <TaskRun>]
+		[/st <StartTime>] [/ri <Interval>] [{/et <EndTime> | /du <Duration>} [/k]] [/sd <StartDate>] [/ed <EndDate>] [/{ENABLE | DISABLE}] [/it] [/z]
+	Examples :
+	schtasks /change /tn "coba" /sc weekly /st 20:32   --> merubah schedule "coba" menjadi MINGGUAN dimulai pada jam "20:32", tanggal tetap / tidak berubah
+	
+* DELETE
+	Syntax :
+	schtasks /delete /tn {<TaskName> | *} [/f] [/s <Computer> [/u [<Domain>\]<User> [/p <Password>]]]
+	Examples :
+	- schtasks /delete /tn "coba"      --> with confirmation message
+	- schtasks /delete /tn "coba" /f   --> without confirmation message
+
+* QUERY (Check Task)
+	Syntax :
+	schtasks [/query] [/fo {TABLE | LIST | CSV}] [/nh] [/v] [/s <Computer> [/u [<Domain>\]<User> [/p <Password>]]]
+	Examples :
+	- schtasks /query /fo list      --> cek task dalam bentuk "list" (simple)
+	- schtasks /query /fo list /v   --> cek task dengan tambahan properties lanjut
+
+
+
+========== Dokumentasi PHP on CMD ==========
+
+1. Set PATH on Environtment Variables. Set C:\xampp\php, where the php.exe was existed.
+2. Test it with typing "php" on CMD. If it's run, now we can run the batch file to call php file.
+3. Example :
+   php -f C:\xampp\htdocs\vos.php   --> the command to call php file

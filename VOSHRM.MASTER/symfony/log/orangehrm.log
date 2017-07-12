@@ -1,0 +1,8 @@
+[23-Mar-2017 07:13:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Applications/XAMPP/xamppfiles/htdocs/voshrm-lts/installer/dbConfig.php on line 135
+[23-Mar-2017 07:14:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Applications/XAMPP/xamppfiles/htdocs/voshrm-lts/installer/dbConfig.php on line 135
+[23-Mar-2017 07:15:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected ';' in /Applications/XAMPP/xamppfiles/htdocs/voshrm-lts/installer/dbConfig.php on line 127
+[23-Mar-2017 07:15:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Applications/XAMPP/xamppfiles/htdocs/voshrm-lts/installer/dbConfig.php on line 135
+[23-Mar-2017 07:16:14 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Applications/XAMPP/xamppfiles/htdocs/voshrm-lts/installer/dbConfig.php on line 144
+[23-Mar-2017 07:17:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Applications/XAMPP/xamppfiles/htdocs/voshrm-lts/installer/dbConfig.php on line 144
+[23-Mar-2017 07:18:21 Europe/Berlin] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /Applications/XAMPP/xamppfiles/htdocs/voshrm-lts/installer/dbConfig.php on line 136
+[23-Mar-2017 07:18:22 Europe/Berlin] PHP Warning:  mysql_query() expects parameter 2 to be resource, boolean given in /Applications/XAMPP/xamppfiles/htdocs/voshrm-lts/installer/dbConfig.php on line 136

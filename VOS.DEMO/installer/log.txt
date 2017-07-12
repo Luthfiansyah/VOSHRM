@@ -1,0 +1,48 @@
+Client Info
+
+User Agent : Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+Remote Address : ::1
+
+Server Info
+
+Host : localhost
+PHP Version : 5.6.30
+Server : Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30
+Admin : postmaster@localhost
+
+Document Root : C:/xampp/htdocs
+ROOT_PATH : C:\xampp\htdocs\VOS.DEMO
+
+OrangeHRM Installation Log
+
+Fri, 17 Mar 2017 10:00:51 +0100 DB Creation - Starting
+Fri, 17 Mar 2017 10:00:51 +0100 DB Creation - Done
+Fri, 17 Mar 2017 10:00:51 +0100 DB Creation - No Errors
+Fri, 17 Mar 2017 10:00:53 +0100 Fill Data Phase 1 - Starting
+Fri, 17 Mar 2017 10:00:53 +0100 Fill Data Phase 1 - Connected to the DB Server
+Fri, 17 Mar 2017 10:00:53 +0100 Fill Data Phase 1 - Selected the DB
+Fri, 17 Mar 2017 10:00:53 +0100 Fill Data Phase 1 - Reading DB Script
+Fri, 17 Mar 2017 10:00:53 +0100 Fill Data Phase 1 - Opened DB Script
+Fri, 17 Mar 2017 10:00:53 +0100 Fill Data Phase 1 - Read DB script
+Fri, 17 Mar 2017 10:00:53 +0100 Fill Data Phase 1 - There are 284 Statements in the DB script
+Fri, 17 Mar 2017 10:01:17 +0100 Fill Data Phase 1 - Done
+Fri, 17 Mar 2017 10:01:17 +0100 Fill Data Phase 1 - No Errors
+Fri, 17 Mar 2017 10:01:19 +0100 Fill Data Phase 2 - Starting
+Fri, 17 Mar 2017 10:01:19 +0100 Fill Data Phase 2 - Connected to the DB Server
+Fri, 17 Mar 2017 10:01:19 +0100 Fill Data Phase 2 - Selected the DB
+Fri, 17 Mar 2017 10:01:19 +0100 Fill Data Phase 2 - Reading DB Script
+Fri, 17 Mar 2017 10:01:19 +0100 Fill Data Phase 2 - Opened DB Script
+Fri, 17 Mar 2017 10:01:19 +0100 Fill Data Phase 2 - Read DB script
+Fri, 17 Mar 2017 10:01:19 +0100 Fill Data Phase 2 - There are 127 Statements in the DB script
+Fri, 17 Mar 2017 10:01:20 +0100 Fill Data Phase 1 - Connected to the DB Server
+Fri, 17 Mar 2017 10:01:20 +0100 Fill Data Phase 2 - Done
+Fri, 17 Mar 2017 10:01:20 +0100 Fill Data Phase 2 - No Errors
+Fri, 17 Mar 2017 10:01:22 +0100 Create DB user - Starting
+Fri, 17 Mar 2017 10:01:22 +0100 Create DB user - Done
+Fri, 17 Mar 2017 10:01:22 +0100 Create DB user - No Errors
+Fri, 17 Mar 2017 10:01:24 +0100 Create OrangeHRM user - Starting
+Fri, 17 Mar 2017 10:01:24 +0100 Create OrangeHRM user - Done
+Fri, 17 Mar 2017 10:01:24 +0100 Create OrangeHRM user - No Errors
+Fri, 17 Mar 2017 10:01:26 +0100 Write Conf - Starting
+Fri, 17 Mar 2017 10:01:26 +0100 Write Conf - Done
+Fri, 17 Mar 2017 10:01:26 +0100 Write Conf - No Errors
